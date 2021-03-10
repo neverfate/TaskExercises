@@ -1,0 +1,23 @@
+{
+  "name": "xwish/task-exercises",
+  "description": "Description of project TaskExercises.",
+  "authors": [
+    {
+      "name": "xwish",
+      "email": "admin@neverfate.ru"
+    }
+  ],
+  "require": {
+
+  },
+  "autoload": {
+    "files": [
+      "libs/utils.php",
+      "libs/math.php"
+    ],
+
+    "classmap": [
+
+    ]
+  }
+}
