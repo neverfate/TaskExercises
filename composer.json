@@ -7,13 +7,31 @@
       "email": "admin@neverfate.ru"
     }
   ],
-  "require": {
 
+  "repositories": [
+    {
+      "name" : "utils",
+      "type" : "vcs",
+      "url" : "/var/www/libs/utils"
+    },
+
+    {
+      "name" : "math",
+      "type" : "vcs",
+      "url" : "/var/www/libs/math"
+    }
+  ],
+
+  "require": {
+    "xwish/utils" : "dev-master",
+    "xwish/math" : "dev-master"
   },
+
   "autoload": {
     "files": [
-      "libs/utils.php",
-      "libs/math.php"
+
+
+
     ],
 
     "classmap": [

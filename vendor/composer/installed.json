@@ -1,5 +1,69 @@
 {
-    "packages": [],
+    "packages": [
+        {
+            "name": "xwish/math",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "/var/www/libs/math",
+                "reference": "1a196d495e0564b543383359bbd94447a3d034c0"
+            },
+            "require": {
+                "xwish/utils": "dev-master"
+            },
+            "time": "2021-03-11T09:39:14+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "files": [
+                    "math.php"
+                ]
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "xwish",
+                    "email": "admin@neverfate.ru"
+                }
+            ],
+            "description": "description",
+            "install-path": "../xwish/math"
+        },
+        {
+            "name": "xwish/utils",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "/var/www/libs/utils",
+                "reference": "c262673d194187716d058a52f5a469cc71bc0cfa"
+            },
+            "time": "2021-03-11T09:30:37+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "files": [
+                    "utils.php"
+                ]
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "xwish",
+                    "email": "admin@neverfate.ru"
+                }
+            ],
+            "description": "description",
+            "install-path": "../xwish/utils"
+        }
+    ],
     "dev": true,
     "dev-package-names": []
 }

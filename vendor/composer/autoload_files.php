@@ -6,6 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    '07954e6af0f27e5ae9db4fb51f689a54' => $baseDir . '/libs/utils.php',
-    '760033560efb29efea7317fff821cb93' => $baseDir . '/libs/math.php',
+    '1066786cef12e8642d28d7fc19579887' => $vendorDir . '/xwish/utils/utils.php',
+    'b13520773f3e73e27a22c10b0ef322af' => $vendorDir . '/xwish/math/math.php',
 );

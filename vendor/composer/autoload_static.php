@@ -7,8 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInit42c3f090b2714e6b5e1c07b755de6dcb
 {
     public static $files = array (
-        '07954e6af0f27e5ae9db4fb51f689a54' => __DIR__ . '/../..' . '/libs/utils.php',
-        '760033560efb29efea7317fff821cb93' => __DIR__ . '/../..' . '/libs/math.php',
+        '1066786cef12e8642d28d7fc19579887' => __DIR__ . '/..' . '/xwish/utils/utils.php',
+        'b13520773f3e73e27a22c10b0ef322af' => __DIR__ . '/..' . '/xwish/math/math.php',
     );
 
     public static $classMap = array (
