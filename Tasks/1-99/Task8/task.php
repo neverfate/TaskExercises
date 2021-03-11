@@ -28,21 +28,6 @@ function getChunk(int $_min, int $_max): array
     ];
 }// getChunk
 
-/**
- * Печатает матрицу
- * @param array $_a
- */
-function printMatrix(array $_a): void
-{
-    prLog('[');
-
-    foreach ($_a as $vector) {
-        prLog(implode(', ', $vector));
-    }
-
-    prLog(']');
-}// printMatrix
-
 //
 
 $matrix =

@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '148faf33cb0fdbf93760ad71ad70a1673b3660d3',
+    'reference' => '8e25e41745699bc4357bd1af3ec8cb4a16927864',
     'name' => 'xwish/task-exercises',
   ),
   'versions' => 
@@ -43,7 +43,7 @@ private static $installed = array (
       array (
         0 => '9999999-dev',
       ),
-      'reference' => '1a196d495e0564b543383359bbd94447a3d034c0',
+      'reference' => '2ef39ea982aa8166e29c04904ffc4a6688bd3d9b',
     ),
     'xwish/task-exercises' => 
     array (
@@ -52,7 +52,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '148faf33cb0fdbf93760ad71ad70a1673b3660d3',
+      'reference' => '8e25e41745699bc4357bd1af3ec8cb4a16927864',
     ),
     'xwish/utils' => 
     array (
@@ -62,7 +62,7 @@ private static $installed = array (
       array (
         0 => '9999999-dev',
       ),
-      'reference' => 'c262673d194187716d058a52f5a469cc71bc0cfa',
+      'reference' => 'c50061afb8ae5f8abc3fefe4e36049da5f609408',
     ),
   ),
 );

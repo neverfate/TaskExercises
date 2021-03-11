@@ -37,51 +37,6 @@ $m = 3;
 
 ////////////////////////////////////////////////////////////////////////////////
 
-/**
- * Генерирует значение для элемента матрицы
- * @return int
- */
-function getElement(): int
-{
-    return mt_rand(-10000, 10000);
-}// getElement
-
-/**
- * Генерирует матрицу
- * @param int $_n
- * @param int $_m
- * @return array
- */
-function getMatrix(int $_n, int $_m): array
-{
-    $matrix = [];
-
-    for ($i = 0; $i < $_n; $i++) {
-        for ($j = 0; $j < $_m; $j++) {
-            $matrix[$i][$j] = getElement();
-        }
-    }
-
-    return $matrix;
-}// getMatrix
-
-/**
- * Печатает матрицу
- * @param array $_a
- */
-function printMatrix(array $_a): void
-{
-    prLog('[');
-
-    foreach ($_a as $vector) {
-        prLog(implode(', ', $vector));
-    }
-
-    prLog(']');
-}// printMatrix
-
-//
-
 $matrix = getMatrix($n, $m);
 /*
 $n = 3; // формируем случайное число n - кол-во строк

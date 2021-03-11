@@ -7,12 +7,12 @@
             "source": {
                 "type": "git",
                 "url": "/var/www/libs/math",
-                "reference": "1a196d495e0564b543383359bbd94447a3d034c0"
+                "reference": "2ef39ea982aa8166e29c04904ffc4a6688bd3d9b"
             },
             "require": {
                 "xwish/utils": "dev-master"
             },
-            "time": "2021-03-11T09:39:14+00:00",
+            "time": "2021-03-11T12:05:27+00:00",
             "default-branch": true,
             "type": "library",
             "installation-source": "source",
@@ -40,9 +40,9 @@
             "source": {
                 "type": "git",
                 "url": "/var/www/libs/utils",
-                "reference": "c262673d194187716d058a52f5a469cc71bc0cfa"
+                "reference": "c50061afb8ae5f8abc3fefe4e36049da5f609408"
             },
-            "time": "2021-03-11T09:30:37+00:00",
+            "time": "2021-03-11T11:26:40+00:00",
             "default-branch": true,
             "type": "library",
             "installation-source": "source",
