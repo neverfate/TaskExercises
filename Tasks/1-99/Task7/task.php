@@ -1,6 +1,8 @@
 #!/usr/bin/php
 <?php
 
+use JetBrains\PhpStorm\Pure;
+
 require_once '/var/www/TaskExercises/vendor/autoload.php';
 
 /*
@@ -25,7 +27,37 @@ require_once '/var/www/TaskExercises/vendor/autoload.php';
 { 13, 15, 17 } ]
 
 Answer = 13
+*/
+
+/**
+ * Генерирует значение для элемента матрицы
+ * @return int
  */
+#[Pure] function _getElement(): int
+{
+    return mt_rand(-10000, 10000);
+}// getElement
+
+////////////////////////////////////////////////////////////////////////////////
+
+/**
+ * Генерирует матрицу
+ * @param int $_n
+ * @param int $_m
+ * @return array
+ */
+function _getMatrix(int $_n, int $_m): array
+{
+    $matrix = [];
+
+    for ($i = 0; $i < $_n; $i++) {
+        for ($j = 0; $j < $_m; $j++) {
+            $matrix[$i][$j] = _getElement();
+        }
+    }
+
+    return $matrix;
+}// getMatrix
 
 randInit();
 
@@ -37,7 +69,7 @@ $m = 3;
 
 ////////////////////////////////////////////////////////////////////////////////
 
-$matrix = getMatrix($n, $m);
+$matrix = _getMatrix($n, $m);
 /*
 $n = 3; // формируем случайное число n - кол-во строк
 $m = 3;
