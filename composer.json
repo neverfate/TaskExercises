@@ -24,7 +24,8 @@
 
   "require": {
     "xwish/utils" : "dev-master",
-    "xwish/math" : "dev-master"
+    "xwish/math" : "dev-master",
+    "ext-bcmath": "*"
   },
 
   "autoload": {
