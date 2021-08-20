@@ -33,7 +33,7 @@ Note:
 class Solution
 {
     /**
-     * @param Integer[] $arr
+     * @param int[] $arr
      */
     function duplicateZeros(array &$arr): void
     {
