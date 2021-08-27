@@ -37,7 +37,7 @@ class Solution
      * @param int[] $nums
      * @return int[]
      */
-    function sortedSquares($nums): array
+    function sortedSquares(array $nums): array
     {
         for ($i = 0; $i < count($nums); $i++) {
             $nums[$i] **= 2;
